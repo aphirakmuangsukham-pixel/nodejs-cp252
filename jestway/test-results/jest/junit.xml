@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="3" errors="0" time="0.66">
+  <testsuite name="Count user" errors="0" failures="3" skipped="0" timestamp="2026-03-17T04:42:47" time="0.561" tests="3">
+    <testcase classname="Count user default user count" name="Count user default user count" time="0.004">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 4
+Received: 7
+    at Object.toEqual (C:\cygwin64\home\DELL\nodejs-cp252\jestway\test\models.userData.test.js:9:25)
+    at Promise.then.completed (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\utils.js:231:10)
+    at _callCircusTest (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:252:3)
+    at _runTestsForDescribeBlock (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:126:9)
+    at _runTestsForDescribeBlock (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:121:9)
+    at run (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:71:3)
+    at runAndTransformResultsToJestFormat (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    at jestAdapter (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-runner\build\runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Count user clear user and Count" name="Count user clear user and Count" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 0
+Received: 7
+    at Object.toEqual (C:\cygwin64\home\DELL\nodejs-cp252\jestway\test\models.userData.test.js:16:27)
+    at Promise.then.completed (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\utils.js:231:10)
+    at _callCircusTest (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:252:3)
+    at _runTestsForDescribeBlock (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:126:9)
+    at _runTestsForDescribeBlock (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:121:9)
+    at run (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:71:3)
+    at runAndTransformResultsToJestFormat (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    at jestAdapter (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-runner\build\runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="remove user Remove one" name="remove user Remove one" time="0">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 1
+Received: 0
+    at Object.toEqual (C:\cygwin64\home\DELL\nodejs-cp252\jestway\test\models.userData.test.js:29:23)
+    at Promise.then.completed (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\utils.js:231:10)
+    at _callCircusTest (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:252:3)
+    at _runTestsForDescribeBlock (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:126:9)
+    at _runTestsForDescribeBlock (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:121:9)
+    at run (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\run.js:71:3)
+    at runAndTransformResultsToJestFormat (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    at jestAdapter (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\cygwin64\home\DELL\nodejs-cp252\jestway\node_modules\jest-runner\build\runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
